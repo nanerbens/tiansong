@@ -1749,3 +1749,15 @@ SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.018555s ]
 SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002930s ]
 NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\luomanage1\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
 
+[ 2015-02-16T10:53:26+08:00 ] 127.0.0.1 /luomanage1/index.php?s=/Home/Member/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.017578s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001953s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\luomanage1\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
