@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>{$Think.config.Wname}</title>
+{:HEADERX()}
+</head>
+<body>
+
+<include file="Public:header"/>
+
+<!--main-container-part-->
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="{:U('Index/index')}" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 首页</a> </div>
+
+  </div>
+  <div class="container-fluid">
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+
+        <div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <h5>职称添加</h5>
+        </div>
+        <div class="widget-content nopadding">
+          <form action="__URL__/member_add"  method="post" class="form-horizontal" id="form">
+          <div class="control-group">
+              <label class="control-label">职工编号:</label>
+              <div class="controls">
+                <input type="hidden" name="id" id="id" value="{$result.id}"> 
+                <input type="text" class="span11" name="number" id="number" value="{$result.number}"  />
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">员工姓名:</label>
+              <div class="controls">
+                <input type="text" class="span11" name="truename" id="truename" value="{$result.truename}"  />
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">密码:</label>
+              <div class="controls">
+                <input type="password" class="span11" name="password" id="password"/>
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">确认密码:</label>
+              <div class="controls">
+                <input type="password" class="span11" name="password1" id="password1"/>
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">员工电话:</label>
+              <div class="controls">
+                <input type="text" class="span11" name="tel" id="tel" value="{$result.tel}"  />
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">员工住址:</label>
+              <div class="controls">
+                <input type="text" class="span11" name="address" id="address" value="{$result.address}"  />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">所属部门:</label>
+              <div class="controls">
+                <select name="pid" id="pid" class="span4"> 
+                  <option value="-1" selected="selected">请选择部门</option>
+                  <volist name="res" id="vo">
+                  <option value="{$vo.id}" <if condition="$vo['id'] eq $result['pid']">selected</if>>{$vo.name}</option>
+                </volist>
+                </select>
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">所属职称:</label>
+              <div class="controls">
+                <select name="tid" id="tid" class="span4"> 
+                    <notempty name="result['id']">
+                      <volist name="title" id="vo">
+                      <option value="{$vo.id}">{$vo.name}</option>
+                      </volist>
+                    </notempty>
+                </select>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">所属角色:</label>
+              <div class="controls">
+                <select name="role_id[]" id="role_id[]" class="span4" multiple="multiple"> 
+                  <volist name="list" id="vo">
+                 <option value="{$vo.id}" 
+                <volist name='rulist' id='ru'>
+                <eq name='ru.role_id' value='$vo["id"]'>selected="selected"</eq>
+                </volist>
+                >{$vo.name}</option>
+        
+                </volist>
+                </select>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">备注:</label>
+              <div class="controls">
+                <textarea name="remark" id="remark" class="span11">{$result.remark}</textarea>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-success">保存</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--main-container-part-->
+<include file="Public:footer"/>
+{:FOOTERX()}
+<script type="text/javascript">
+$('#form').submit(function(){
+  $(this).ajaxSubmit({
+    type: "post",
+    dataType: "json",
+    success: function(data){
+      var d=dialog({
+          title:"提示",
+          width:200,
+          content:data.msg,
+          okValue:"确定",
+          ok:function(){
+              window.location.href="__URL__/index";
+                
+          }
+      })
+      d.show();
+    }
+  });
+  return false;
+});
+
+$("#pid").change(function(){
+    var tid=$(this).val();
+    $.post("__URL__/change_title",{tid:tid},function(data){
+        $("#tid").empty();
+        for(var key in data){
+          var param="<option value=' "+data[key].id+" '>"+data[key].name+"</option>";
+          $("#tid").append(param);
+        }
+        return false;
+    })
+})
+
+</script>
+</body>
+</html>

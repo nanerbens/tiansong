@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$Think.config.Wname}</title>
+<style type="text/css">
+	
+.changeapp { 
+	margin:5px 10px 10px 10px;
+}
+
+.changeapp li{ 
+	background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0;
+    padding: 5px 10px;
+    width: 168px;
+	height: 20px;
+	position: relative;
+}
+.changeapp li label{ 
+	display: block;
+    cursor: pointer;
+}
+
+</style>
+
+{:HEADERX()}
+</head>
+
+<body>
+
+<include file="Public:header" />
+
+<!--main-container-part-->
+<div id="content">
+<!--breadcrumbs-->
+  <div id="content-header">
+    <div id="breadcrumb"><a href="{:U('Index/index')}" title="首页" class="tip-bottom"><i class="icon-home"></i> 首页</a> <a href="{:U('System/account')}">账户列表</a> <a href="javascript:" class="current">权限设置</a></div>
+  </div>
+<!--End-breadcrumbs-->
+
+<!--Action boxes-->
+  <div class="container-fluid">
+
+    <div class="row-fluid">
+        <div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <h5>权限</h5>
+        </div>
+        <div class="widget-content">
+        <form action="__URL__/set_access" method="post" class="form-horizontal" id="act_form">
+        <volist name='node' id='vo'>
+          <div class="control-group">
+            <label class="control-label" for="appendedInput">
+            <input name="menu[]" type="checkbox" level="1" value='{$vo.id}_1' <if condition="$vo['access']">checked='checked'</if> value="{$vo.id}"> 
+            {$vo.title}：</label>
+             <div class="controls">
+              
+
+                <volist name='vo.child' id='voo'>
+                    <label>
+                      <input name="menu[]" type="checkbox" level="2" value='{$voo.id}_2' <if condition="$voo['access']">checked='checked'</if> value="{$voo.id}"> {$voo.title}
+                    </label>
+                    <div class="controls">
+                      <fieldset>
+                        <ul class="changeapp">
+                        <volist name='voo.child' id='vo1'>
+                          <li>
+                            <label>
+                              <input name="menu[]" level="3" value='{$vo1.id}_3' type="checkbox" <if condition="$vo1['access']">checked='checked'</if> value="{$vo1.id}"> {$vo1.title}
+                            </label>
+                          </li>
+                        </volist>
+                        </ul>
+                      </fieldset>
+                    </div>
+                </volist>
+            </div>
+
+
+
+
+            
+          </div>
+        </volist>
+  
+  <div class="form-actions">
+    <input type="hidden" name="rid" value="{$rid}">
+    <button type="submit" id="btn_submit" class="btn btn-primary">提交</button>
+ </div>
+</form>
+          
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--end-main-container-part-->
+
+<include file="Public:footer" />
+
+        
+        
+</body>
+</html>
+{:FOOTERX()}
+<script>
+//提交
+$('form').submit(function(){
+  $(this).ajaxSubmit(function(data){
+    	var d=dialog({
+			title:"提示",
+			content:data.msg,
+			width:200,
+			okValue:"确定",
+			ok:function(){
+        window.location.reload();
+				
+			}
+		});
+		d.show();
+  });
+  return false;
+})
+
+</script>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>{$Think.config.Wname}</title>
+{:HEADERX()}
+</head>
+<body>
+
+<include file="Public:header"/>
+
+<!--main-container-part-->
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="__URL__/index" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 首页</a> <a href="__URL__/index" class="current">我的面板</a> </div>
+
+  </div>
+  <div class="container-fluid">
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"><i class="icon-repeat"></i></span>
+            <h5>我的面板</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <ul class="activity-list">
+              <li><a ><i class="icon-envelope"></i><strong>真实姓名：</strong><strong>{$result.truename}</strong></a> </li>
+              <li><a ><i class="icon-picture"></i>  <strong>登录IP：</strong><strong>{$result.ip}</strong></a></li>
+              <li><a ><i class="icon-user"></i> <strong>登录时间：</strong><strong>{$result.login_time}</strong></a> </li>
+              <li><a><i class="icon-envelope"></i> <strong>我的电话:</strong><strong>{$result.tel}</strong></a></li>
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--main-container-part-->
+<include file="Public:footer"/>
+{:FOOTERX()}
+</body>
+</html>

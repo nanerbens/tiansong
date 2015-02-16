@@ -1,0 +1,1948 @@
+[ 2015-02-13T00:00:24+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/set_access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.148008s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.066003s ]
+SQL: DELETE FROM `rs_access` WHERE `role_id` = 12 [ RunTime:0.004001s ]
+SQL: INSERT INTO `rs_access` (`role_id`,`node_id`,`level`) VALUES (12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1),(12,0,1) [ RunTime:0.003001s ]
+
+[ 2015-02-13T00:01:49+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.055003s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.138008s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.046002s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 12  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:01:53+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.066004s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.112007s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.203011s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 12  [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:02:41+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/set_access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.050002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.035002s ]
+SQL: DELETE FROM `rs_access` WHERE `role_id` = 12 [ RunTime:0.003000s ]
+SQL: INSERT INTO `rs_access` (`role_id`,`node_id`,`level`) VALUES (12,0,1),(12,0,1),(12,0,2),(12,0,2),(12,0,2),(12,0,1),(12,0,2),(12,0,2),(12,0,2),(12,0,2),(12,0,1),(12,0,2),(12,0,2),(12,0,2),(12,0,1),(12,0,2),(12,0,2),(12,0,2),(12,0,1),(12,0,2),(12,0,2) [ RunTime:0.004000s ]
+
+[ 2015-02-13T00:04:22+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.032002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.032001s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.030002s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 12  [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:04:31+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/set_access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.025002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.021001s ]
+SQL: DELETE FROM `rs_access` WHERE `role_id` = 12 [ RunTime:0.002001s ]
+
+[ 2015-02-13T00:06:28+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.048003s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.040002s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.045002s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 12  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:08:01+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:08:02+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:08:02+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.028001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:08:04+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Partment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+
+[ 2015-02-13T00:08:04+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:08:04+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Partment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.034002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_partment` [ RunTime:0.044003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rs_partment` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rs_partment` ORDER BY id desc LIMIT 0,15   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: is_delete E:\php\luomanage\App\Runtime\Cache\Home\5a300cfc8d589c6913919f9436d7fd22.php 第 140 行.
+NOTIC: [8] Undefined index: is_delete E:\php\luomanage\App\Runtime\Cache\Home\5a300cfc8d589c6913919f9436d7fd22.php 第 140 行.
+NOTIC: [8] Undefined index: is_delete E:\php\luomanage\App\Runtime\Cache\Home\5a300cfc8d589c6913919f9436d7fd22.php 第 140 行.
+NOTIC: [8] Undefined index: is_delete E:\php\luomanage\App\Runtime\Cache\Home\5a300cfc8d589c6913919f9436d7fd22.php 第 140 行.
+NOTIC: [8] Undefined index: is_delete E:\php\luomanage\App\Runtime\Cache\Home\5a300cfc8d589c6913919f9436d7fd22.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:08:09+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Title/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-13T00:08:09+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:08:10+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Title/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.064004s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_title` [ RunTime:0.045002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rs_title` LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `rs_title` ORDER BY id desc LIMIT 0,15   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `rs_partment` [ RunTime:0.028002s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.035002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:08:21+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+
+[ 2015-02-13T00:08:22+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:08:22+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.086005s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_role` [ RunTime:0.049003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rs_role` LIMIT 1   [ RunTime:0.007001s ]
+SQL: SELECT * FROM `rs_role` ORDER BY id desc LIMIT 0,15   [ RunTime:0.014001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-02-13T00:08:55+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Check/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.023001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rs_check` [ RunTime:0.023001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rs_check` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rs_check` ORDER BY id desc LIMIT 0,15   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_partment` [ RunTime:0.029002s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.028001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-13T00:09:40+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:09:40+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-02-13T00:09:40+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.034002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.028002s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.021001s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:09:43+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.020001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.017001s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.025002s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:09:43+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.031002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.045002s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.087005s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:09:44+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.016001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.019001s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.026001s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:09:47+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.024001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.029001s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.023001s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.012001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:17:06+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/set_access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.052002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.039002s ]
+SQL: DELETE FROM `rs_access` WHERE `role_id` = 13 [ RunTime:0.000000s ]
+SQL: INSERT INTO `rs_access` (`role_id`,`node_id`,`level`) VALUES (13,0,1),(13,0,1),(13,0,2),(13,0,2),(13,0,2),(13,0,1),(13,0,2),(13,0,2),(13,0,2) [ RunTime:0.004001s ]
+
+[ 2015-02-13T00:18:27+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.031002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.043003s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.025001s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-02-13T00:19:25+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.025002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.018001s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.024002s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:19:26+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.024002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.041002s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.023001s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:21:27+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:21:27+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:21:28+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.031002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_role` [ RunTime:0.026002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rs_role` LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `rs_role` ORDER BY id desc LIMIT 0,15   [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:21:30+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:21:31+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:21:31+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.034002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.029001s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.045002s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:23:30+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.045002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.040002s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.250015s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:23:51+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.044002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.046002s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.032002s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:24:33+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/set_access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.051003s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.054003s ]
+SQL: DELETE FROM `rs_access` WHERE `role_id` = 13 [ RunTime:0.002000s ]
+SQL: INSERT INTO `rs_access` (`role_id`,`node_id`,`level`) VALUES (13,0,1),(13,0,2),(13,0,3),(13,0,3),(13,0,3),(13,0,2),(13,0,3),(13,0,3),(13,0,2),(13,0,3),(13,0,3),(13,0,3),(13,0,3),(13,0,2),(13,0,3),(13,0,3),(13,0,3),(13,0,2),(13,0,3),(13,0,3),(13,0,3),(13,0,2),(13,0,3),(13,0,3) [ RunTime:0.004000s ]
+
+[ 2015-02-13T00:24:35+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.131008s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.035002s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.030001s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:25:45+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/set_access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.039002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.028002s ]
+SQL: DELETE FROM `rs_access` WHERE `role_id` = 13 [ RunTime:0.003000s ]
+SQL: INSERT INTO `rs_access` (`role_id`,`node_id`,`level`) VALUES (13,0,1),(13,0,2),(13,0,3),(13,0,3),(13,0,3),(13,0,2),(13,0,3),(13,0,3),(13,0,2),(13,0,3),(13,0,3),(13,0,3),(13,0,3),(13,0,2),(13,0,3),(13,0,3),(13,0,3),(13,0,2),(13,0,3),(13,0,3),(13,0,3),(13,0,2),(13,0,3),(13,0,3) [ RunTime:0.004001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\php\luomanage\App\Home\Controller\RoleController.class.php:96) E:\php\luomanage\ThinkPHP\Library\Think\Controller.class.php 第 214 行.
+
+[ 2015-02-13T00:27:02+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.054003s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.035002s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.021001s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.007001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-02-13T00:27:06+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/set_access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.051003s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.351020s ]
+SQL: DELETE FROM `rs_access` WHERE `role_id` = 13 [ RunTime:0.005000s ]
+SQL: INSERT INTO `rs_access` (`role_id`,`node_id`,`level`) VALUES (13,1,1),(13,18,2),(13,19,3),(13,20,3),(13,21,3),(13,22,2),(13,23,3),(13,24,3),(13,13,2),(13,14,3),(13,15,3),(13,16,3),(13,17,3),(13,2,2),(13,3,3),(13,4,3),(13,5,3),(13,6,2),(13,7,3),(13,8,3),(13,9,3),(13,10,2),(13,12,3),(13,11,3) [ RunTime:0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\php\luomanage\App\Home\Controller\RoleController.class.php:96) E:\php\luomanage\ThinkPHP\Library\Think\Controller.class.php 第 214 行.
+
+[ 2015-02-13T00:27:17+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.031002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.026001s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.054003s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:27:31+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.132008s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.049003s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.029001s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-13T00:27:35+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/set_access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.217012s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.095005s ]
+SQL: DELETE FROM `rs_access` WHERE `role_id` = 13 [ RunTime:0.003000s ]
+SQL: INSERT INTO `rs_access` (`role_id`,`node_id`,`level`) VALUES (13,1,1),(13,18,2),(13,19,3),(13,20,3),(13,21,3),(13,22,2),(13,23,3),(13,24,3),(13,13,2),(13,14,3),(13,15,3),(13,16,3),(13,17,3),(13,2,2),(13,3,3),(13,4,3),(13,5,3),(13,6,2),(13,7,3),(13,8,3),(13,9,3),(13,10,2),(13,12,3),(13,11,3) [ RunTime:0.003001s ]
+
+[ 2015-02-13T00:27:37+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.047003s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.364021s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.119006s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-13T00:27:58+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2015-02-13T00:27:58+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-02-13T00:27:58+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-02-13T00:28:09+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.069004s ]
+SQL: SELECT * FROM `rs_member` WHERE ( number='1106010032' ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: UPDATE `rs_member` SET `ip`='127.0.0.1',`login_time`='2015-02-13 00:02:08' WHERE ( id=16 ) [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: superadmin E:\php\luomanage\ThinkPHP\Library\Org\Util\Rbac.class.php 第 88 行.
+SQL: select node.id,node.name from rs_role as role,rs_role_user as user,rs_access as access ,rs_node as node where user.user_id='16' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.005001s ]
+
+[ 2015-02-13T00:28:10+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.065003s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.003001s ]
+SQL: SELECT * FROM `rs_member` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:28:12+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+
+[ 2015-02-13T00:28:12+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:28:12+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: acc726c62c133b87cfb9b7bcd643e2fa E:\php\luomanage\ThinkPHP\Library\Org\Util\Rbac.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-13T00:28:21+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `rs_member` WHERE ( number='1106010032' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `rs_member` SET `ip`='127.0.0.1',`login_time`='2015-02-13 00:02:21' WHERE ( id=16 ) [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: superadmin E:\php\luomanage\ThinkPHP\Library\Org\Util\Rbac.class.php 第 88 行.
+SQL: select node.id,node.name from rs_role as role,rs_role_user as user,rs_access as access ,rs_node as node where user.user_id='16' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.002001s ]
+
+[ 2015-02-13T00:28:23+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.039002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `rs_member` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2015-02-13T00:28:26+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Title/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+
+[ 2015-02-13T00:28:26+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:28:26+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Title/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: 6cb216b7db1ce3e4561c80e47d9c1f8f E:\php\luomanage\ThinkPHP\Library\Org\Util\Rbac.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-13T00:28:31+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-02-13T00:28:31+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:28:31+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:28:44+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.028002s ]
+SQL: SELECT * FROM `rs_member` WHERE ( number='1106010039' ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: UPDATE `rs_member` SET `ip`='127.0.0.1',`login_time`='2015-02-13 00:02:44' WHERE ( id=1 ) [ RunTime:0.005001s ]
+
+[ 2015-02-13T00:28:45+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.024002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT * FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:28:48+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:28:49+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:28:49+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.024001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `rs_role` [ RunTime:0.029002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rs_role` LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `rs_role` ORDER BY id desc LIMIT 0,15   [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-02-13T00:28:51+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-13T00:28:51+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2015-02-13T00:28:51+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.046003s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.064004s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.037002s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 13  [ RunTime:0.009000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:28:53+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:28:53+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:28:54+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.021001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_role` [ RunTime:0.024002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rs_role` LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `rs_role` ORDER BY id desc LIMIT 0,15   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-02-13T00:28:55+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-02-13T00:28:55+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-02-13T00:28:56+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.064004s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.042003s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.055003s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.085005s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 12  [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 145 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 151 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+NOTIC: [8] Undefined index: access E:\php\luomanage\App\Runtime\Cache\Home\8ffd00965d30b2ec8d880cd1c4470b8e.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025001s ]
+
+[ 2015-02-13T00:29:22+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/set_access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.038002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.025002s ]
+SQL: DELETE FROM `rs_access` WHERE `role_id` = 12 [ RunTime:0.002000s ]
+SQL: INSERT INTO `rs_access` (`role_id`,`node_id`,`level`) VALUES (12,1,1),(12,18,2),(12,19,3),(12,20,3),(12,21,3),(12,22,2),(12,23,3),(12,24,3),(12,13,2),(12,14,3),(12,15,3),(12,16,3),(12,17,3),(12,2,2),(12,3,3),(12,4,3),(12,5,3),(12,6,2),(12,7,3),(12,8,3),(12,9,3),(12,10,2),(12,12,3),(12,11,3) [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:29:23+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/role_access/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.027001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `rs_node` [ RunTime:0.025001s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `rs_node` ORDER BY sort  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `rs_access` [ RunTime:0.027002s ]
+SQL: SELECT `node_id` FROM `rs_access` WHERE `role_id` = 12  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:29:27+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:29:27+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/login_out.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:29:27+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2015-02-13T00:29:36+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.032002s ]
+SQL: SELECT * FROM `rs_member` WHERE ( number='1106010039' ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: UPDATE `rs_member` SET `ip`='127.0.0.1',`login_time`='2015-02-13 00:02:36' WHERE ( id=1 ) [ RunTime:0.004000s ]
+
+[ 2015-02-13T00:29:37+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.022002s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-13T00:29:39+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Title/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:29:39+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2015-02-13T00:29:40+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Title/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.019001s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rs_title` [ RunTime:0.032001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rs_title` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rs_title` ORDER BY id desc LIMIT 0,15   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_partment` [ RunTime:0.023001s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `rs_partment` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-13T00:29:42+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-13T00:29:42+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-02-13T00:29:42+08:00 ] 127.0.0.1 /luomanage/index.php?s=/Home/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' E:\php\luomanage\App\Home\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\php\luomanage\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rs_member` [ RunTime:0.181010s ]
+SQL: SELECT `truename` FROM `rs_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `rs_role` [ RunTime:0.126008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rs_role` LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `rs_role` ORDER BY id desc LIMIT 0,15   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

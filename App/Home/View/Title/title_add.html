@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>{$Think.config.Wname}</title>
+{:HEADERX()}
+</head>
+<body>
+
+<include file="Public:header"/>
+
+<!--main-container-part-->
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="{:U('Index/index')}" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 首页</a> </div>
+
+  </div>
+  <div class="container-fluid">
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+
+        <div class="widget-box">
+        <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
+          <h5>职称添加</h5>
+        </div>
+        <div class="widget-content nopadding">
+          <form action=""  method="post" class="form-horizontal" id="form">
+             <div class="control-group">
+              <label class="control-label">职称名称:</label>
+              <div class="controls">
+            
+                <input type="text" class="span11" name="name" id="name" value="{$result.name}"  />
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">所属部门:</label>
+              <div class="controls">
+                <input type="hidden" name="id" id="id" value="{$result.id}">
+                <select name="pid" id="pid" class="span4"> 
+                  <volist name="res" id="vo">
+                  <option value="{$vo.id}"  <if condition="$vo['id'] eq $result['apid']">selected</if>>{$vo.name}</option>
+                </volist>
+                </select>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button type="button" class="btn btn-success">保存</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--main-container-part-->
+<include file="Public:footer"/>
+{:FOOTERX()}
+<script type="text/javascript">
+   $(".btn-success").click(function(){
+      var id=$("#id").val();
+      var name=$("#name").val();
+      var pid=$("#pid").val();
+      $.post("__URL__/title_add",{id:id,name:name,pid:pid},function(data){
+            var d=dialog({
+                title:"提示",
+                width:200,
+                content:data.msg,
+                okValue:"确定",
+                ok:function(){
+                    if(data.status==1){
+                      window.location.href="__URL__/index";
+                    }
+                }
+            })
+            d.show();
+      })
+   })
+</script>
+</body>
+</html>
